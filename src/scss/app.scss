@@ -18,7 +18,9 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $background;
 }
-
+* {
+  box-sizing: border-box;
+}
 .main {
   display: flex;
   align-items: center;
@@ -29,6 +31,14 @@ html {
 .container {
   height: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  // flex-direction: column;
   flex-wrap: wrap;
+}
+
+.toolbar {
+  height: 80px;
+  //width: 100vw;
+  //width: 100%;
+  // margin-left: -50px;
 }
